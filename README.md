@@ -10,5 +10,6 @@ Dans le cas où les valeurs manquantes sont imputables MICE peut très bien nous
 Contrairement à l’imputation par la médiane, mode, …, MICE s’appuie partiellement sur les relations entre variables du tableau. Ce qui rend plus précises ses estimations en termes de convergence. 
 
 Quelques conditions sur MICE pour augmenter la fiabilité :
-✅ Pas de forte linéarité ou non linéarité entre les variables (à vérifier avec pairplot(), etc. )
-✅ Pas de taux très élevé de valeurs manquantes
+
+*  Pas de forte linéarité ou non linéarité entre les variables (à vérifier avec pairplot(), etc. )  
+*  Pas de taux très élevé de valeurs manquantes
